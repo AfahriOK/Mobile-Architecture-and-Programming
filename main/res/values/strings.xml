@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Weight Tracker App</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="prompt_create">Press the button below if you do not currently have an account.</string>
+    <string name="create">Create Account</string>
+    <string name="add">Add Weight</string>
+    <string name="goal"> Set Goal </string>
+    <string name="date">Date</string>
+    <string name="weight">Weight</string>
+    <string name="delta">Goal</string>
+    <string name="edit_delete">Edit/Delete</string>
+    <string name="edit">Edit</string>
+    <string name="goal_prompt">What is your current weight goal?</string>
+    <string name="goal_weight">Enter Goal Weight</string>
+    <string name="date_prompt">When was this weight recorded?</string>
+    <string name="format">MM/DD/YYYY Format</string>
+    <string name="weight_prompt">What is your current weight?</string>
+    <string name="enter_weight">Weight</string>
+    <string name="phone_prompt">Enter your phone number and click the button below to add your phone number. (Optional)</string>
+    <string name="permission_prompt">Allow SMS permissions to receive a text when you reach your goal. (Optional)</string>
+    <string name="permission">Allow Permission</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="number">Add Phone Number</string>
+    <string name="edit_weight">Edit Weight</string>
+    <string name="delete">Delete Weight</string>
+    <string name="or">Or</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".WeightScreen">
+
+    <GridLayout
+        android:id="@+id/button_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/goal_button"
+            android:text="@string/goal"
+            android:gravity="center"/>
+
+        <Button
+        android:id="@+id/add_button"
+        android:text="@string/add"
+        android:gravity="center" />
+    </GridLayout>
+
+    <TableLayout
+        android:id="@+id/header_row"
+        app:layout_constraintTop_toBottomOf="@id/button_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:useDefaultMargins="true"
+        android:columnCount="4">
+
+        <TableRow>
+            <TextView
+                android:text="@string/date"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="50dp"/>
+
+            <TextView
+                android:text="@string/weight"
+                android:textSize="20sp"
+                android:layout_marginEnd="40dp"/>
+
+            <TextView
+                android:text="@string/delta"
+                android:textSize="20sp"
+                android:layout_marginEnd="40dp"/>
+
+            <TextView
+                android:text="@string/edit_delete"
+                android:textSize="20sp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/header_row"
+        tools:context=".WeightScreen">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/data_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
