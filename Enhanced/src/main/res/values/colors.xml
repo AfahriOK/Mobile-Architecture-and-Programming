@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Author: Afahri Kerr (AfahriAKerr91@gmail.com)
+Version: 2.0
+Date: 12/07/2023
+This file can be used to add different colors to the application.
+-->
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+</resources>
