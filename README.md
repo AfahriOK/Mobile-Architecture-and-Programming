@@ -1,4 +1,5 @@
 # Mobile-Architecture-and-Programming
+I enhanced this project so you can view the newer files or download the newer Zip file in the enhanced folder.
 # Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 The requirements of this app were to design and build an app that allowed a user to input their weights and goal to a database and display that information in a grid. They should also be able to opt in to a SMS notification feature for reaching their goal.
 
